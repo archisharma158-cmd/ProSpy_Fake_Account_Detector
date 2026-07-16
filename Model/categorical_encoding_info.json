@@ -1,0 +1,10 @@
+{
+  "categorical_columns": [
+    "profile pic",
+    "name==username",
+    "external URL",
+    "private"
+  ],
+  "encoding_method": "direct_int_conversion",
+  "description": "Categorical features were converted to integers directly using astype(int)"
+}
