@@ -1,0 +1,6 @@
+venv/
+venv312/
+backend/venv312/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
