@@ -7,7 +7,7 @@ import joblib
 import os
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Base project directory
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
