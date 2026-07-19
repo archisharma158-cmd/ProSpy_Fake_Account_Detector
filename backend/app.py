@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import pandas as pd
 import numpy as np
 from tensorflow.keras.models import load_model
@@ -6,6 +7,7 @@ import joblib
 import os
 
 app = Flask(__name__)
+CORS(app)
 
 # Base project directory
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
