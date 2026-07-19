@@ -11,7 +11,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/predict": {
-        target: "http://127.0.0.1:5000",
+        target: "https://prospy-fake-account-detector.onrender.com",
         changeOrigin: true,
       },
     },
