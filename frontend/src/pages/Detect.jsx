@@ -46,6 +46,7 @@ function Detect() {
   };
 
   const handleSubmit = async (e) => {
+    console.log("About to send request");
     e.preventDefault();
 
     setLoading(true);
