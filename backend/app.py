@@ -74,19 +74,29 @@ def home():
 @app.route("/predict", methods=["POST"])
 def predict():
     try:
+        print("1. Request received")
+
         data = request.get_json()
 
         if not data:
             return jsonify({"error": "No JSON data received"}), 400
 
+        print("2. JSON received")
+
         df = pd.DataFrame([data])
+
+        print("3. DataFrame created")
 
         # Feature Engineering
         df = add_profile_features(df)
 
+        print("4. Features engineered")
+
         # Encode categorical features
         for col in categorical_cols:
             df[col] = df[col].astype(int)
+
+        print("5. Encoding complete")
 
         # Scale
         X_scaled = pd.DataFrame(
@@ -94,11 +104,16 @@ def predict():
             columns=feature_columns
         )
 
+        print("6. Scaling complete")
+
         # Select important features
         X = X_scaled[selected_features]
 
-        # Prediction
+        print("7. Starting prediction")
+
         probability = float(model.predict(X, verbose=0).flatten()[0])
+
+        print("8. Prediction complete")
 
         prediction = "Fake" if probability > 0.5 else "Genuine"
 
@@ -108,6 +123,7 @@ def predict():
         })
 
     except Exception as e:
+        print("ERROR:", e)
         return jsonify({
             "error": str(e)
         }), 400
