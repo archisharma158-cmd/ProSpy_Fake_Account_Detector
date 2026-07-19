@@ -56,6 +56,7 @@ function Detect() {
       const requestData = { ...formData };
       delete requestData.username;
 
+      console.log("About to send request");
       const res = await axios.post(
         "https://prospy-fake-account-detector.onrender.com/predict",
         requestData
