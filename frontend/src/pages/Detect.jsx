@@ -56,7 +56,7 @@ function Detect() {
       delete requestData.username;
 
       const res = await axios.post(
-        "http://127.0.0.1:5000/predict",
+        "https://prospy-fake-account-detector.onrender.com",
         requestData
       );
 
