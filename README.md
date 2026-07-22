@@ -219,13 +219,24 @@ This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-**Archi Sharma**
-
+### Archi Sharma
 B.Tech in Artificial Intelligence & Machine Learning
 
 Machine Learning | Deep Learning | Data Science
+
+### Parth Goyal
+B.Tech in Cyber Security
+
+Cyber Security | Artificial Intelligence | Machine Learning | Python
+
+---
+
+### Contributors
+
+- **Archi Sharma** – Model Development, Data Analysis, Neural Network Implementation
+- **Parth Goyal** – Research, Documentation, Frontend Development, Backend Integration, Testing, and Project Deployment
 
 ---
 
