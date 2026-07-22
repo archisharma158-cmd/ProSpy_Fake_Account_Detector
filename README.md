@@ -222,22 +222,27 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Authors
 
 ### Archi Sharma
-B.Tech in Artificial Intelligence & Machine Learning
+
+**B.Tech in Artificial Intelligence & Machine Learning**
 
 Machine Learning | Deep Learning | Data Science
 
+- **GitHub:** https://github.com/archisharma158-cmd
+- **LinkedIn:** https://www.linkedin.com/in/archi-sharma-05a3a2371
+- **Email:** archisharma158@gmail.com
+
+---
+
 ### Parth Goyal
-B.Tech in Cyber Security
+
+**B.Tech in Cyber Security**
 
 Cyber Security | Artificial Intelligence | Machine Learning | Python
 
----
-
-### Contributors
-
-- **Archi Sharma** – Model Development, Data Analysis, Neural Network Implementation
-- **Parth Goyal** – Research, Documentation, Frontend Development, Backend Integration, Testing, and Project Deployment
+- **GitHub:** https://github.com/goyalparth61-netizen
+- **LinkedIn:** https://www.linkedin.com/in/parth-goyal-215231385
+- **Email:** goyalparth61@gmail.com
 
 ---
 
-⭐ If you found this project helpful, consider giving the repository a **star**.
+⭐ **If you found this project helpful, please consider giving this repository a star!**
