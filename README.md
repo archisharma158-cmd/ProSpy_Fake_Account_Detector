@@ -1,5 +1,22 @@
 # 🧠 ProSpy – Fake Social Media Profile Detection Using Neural Networks
 
+---
+
+## 🌐 Live Demo
+
+Try the ProSpy application online:
+
+🔗 **Website:** https://pro-spy-fake-account-detector.vercel.app/detect
+
+The web application allows users to:
+
+- Detect whether a social media profile is **Fake** or **Genuine**
+- Enter profile attributes through an interactive interface
+- View prediction confidence and classification results
+- Experience a modern, responsive, and user-friendly design
+
+---
+
 ## 📌 Overview
 
 **ProSpy** is a deep learning-based classification system designed to detect **fake** and **genuine** social media profiles. The model is built using an **Artificial Neural Network (ANN)** and learns patterns from profile attributes to accurately classify whether an account is fake or legitimate.
