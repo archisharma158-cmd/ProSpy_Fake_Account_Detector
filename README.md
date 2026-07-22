@@ -1,4 +1,4 @@
-# 🧠 ProSpy – Fake Social Media Profile Detection Using Neural Networks
+# 🕵️ ProSpy – Fake Social Media Profile Detection Using Neural Networks
 
 ---
 
