@@ -245,7 +245,7 @@ This project is licensed under the MIT License.
 Machine Learning | Deep Learning | Data Science
 
 - **GitHub:** https://github.com/archisharma158-cmd
-- **LinkedIn:** https://www.linkedin.com/in/archi-sharma-05a3a2371
+- **LinkedIn:**https://www.linkedin.com/in/archisharma158
 - **Email:** archisharma158@gmail.com
 
 ---
